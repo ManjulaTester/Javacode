@@ -5,8 +5,13 @@ public class Vowels {
 		
 		//a,e,i,o,u
 		
-		char ch ='d';
-		
+		String str = "Java";
+		char[] charArray = str.toCharArray();
+		for (char ch : charArray) {
+			
+//		}
+//		char ch ='d';
+//		
 		if (ch=='a'|| ch=='e' || ch=='i'|| ch =='o' || ch=='u') {
 			
 			System.out.println("The vowel is :" +ch);
@@ -16,6 +21,8 @@ public class Vowels {
 		}
 		
 		
+		
+		}
 		
 		
 		

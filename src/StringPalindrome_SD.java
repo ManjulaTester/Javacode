@@ -20,14 +20,14 @@ public class StringPalindrome_SD {
 			 
 			
 		}
-		
+		 
 		if (str.equals(rev)) {
 			
-			System.out.println(str + "It is palindrome");
+			System.out.println(rev + "It is palindrome");
 			
 		} else {
 
-			System.out.println(str + "It is not palindrome");
+			System.out.println(rev + "It is not palindrome");
 		}
 		
 		
